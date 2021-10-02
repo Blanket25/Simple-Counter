@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(234, 234, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+div.counter-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  border-radius: 50%;
+  color: rgb(32, 151, 248);
+  border: 1px solid rgb(32, 151, 248);
+  width: 4rem;
+  font-size: 2rem;
+}
+
+.counter {
+  background-color: #fff;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  border: 1px solid rgb(209, 206, 206);
+}
